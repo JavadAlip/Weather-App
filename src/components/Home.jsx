@@ -142,7 +142,7 @@ const Home = () => {
                                 {data.main.feels_like} °F
                             </p>
                         ) : null}
-                        <p style={{ color: darkMode ? "#ccc" : "#696969" }}>Feels Like</p>
+                        <p style={{ color: darkMode ? "#ccc" : "#696969", fontSize:"13px" }}>Feels Like</p>
                     </div>
                     <div>
                         {data.main ? (
@@ -150,7 +150,7 @@ const Home = () => {
                                 {data.main.humidity} %
                             </p>
                         ) : null}
-                        <p style={{ color: darkMode ? "#ccc" : "#696969" }}>Humidity</p>
+                        <p style={{ color: darkMode ? "#ccc" : "#696969" ,fontSize:"13px"}}>Humidity</p>
                     </div>
                     <div>
                         {data.wind ? (
@@ -158,7 +158,7 @@ const Home = () => {
                                 {data.wind.speed} km/h
                             </p>
                         ) : null}
-                        <p style={{ color: darkMode ? "#ccc" : "#696969" }}>Wind Speed</p>
+                        <p style={{ color: darkMode ? "#ccc" : "#696969" ,fontSize:"13px"}}>Wind Speed</p>
                     </div>
                 </div>
             </div>
